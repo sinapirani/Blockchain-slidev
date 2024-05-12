@@ -1,0 +1,17 @@
+{
+  "name": "bitcoin",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.2",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "magic-string": "^0.30.10",
+    "vue": "^3.4.27"
+  }
+}
